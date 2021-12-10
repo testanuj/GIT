@@ -2,6 +2,7 @@ WS Client. Outgoing Message:
 <?xml version="1.0" encoding="UTF-8"?>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:res="http://www.ibm.com/xmlns/prod/websphere/fabric/2009/12/telecom/operations/inventory/schema/ResourceOrderMessage" xmlns:amen="http://www.ibm.com/xmlns/prod/websphere/fabric/2009/12/telecom/operations/inventory/types/schema/AmendWorkOrder" xmlns:v3="http://www.ibm.com/telecom/common/schema/mtosi/v3_0">
     <soapenv:Body>
+	Newly added line 
         <amen:amendWorkOrder>
             <res:resourceOrder>
                 <Id>100030841436</Id>
